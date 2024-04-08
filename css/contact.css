@@ -1,0 +1,112 @@
+.contact__section {
+  position: relative;
+}
+.contact__container {
+  padding: 13rem 8rem;
+}
+
+.contact__text__box {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.contact__heading {
+  font-size: 6.4rem;
+  line-height: 10rem;
+  font-weight: 700;
+}
+.contact__subheading {
+  font-size: 3.2rem;
+  line-height: 4.8rem;
+  font-weight: 700;
+  color: #f67e7e;
+}
+.contact__details__box {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  margin-top: 1.6rem;
+}
+.contact__box {
+  display: flex;
+  align-items: center;
+  gap: 2.3rem;
+}
+.contact__img {
+  width: 7.2rem;
+  height: 7.2rem;
+}
+.contact__text {
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 2.8rem;
+}
+.contact__form {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+.input__box {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+.input__field {
+  outline: none;
+  border: none;
+  background-color: transparent;
+  border-bottom: 0.1rem solid #fff;
+  padding: 0 1.6rem 1.6rem;
+}
+.input__field,
+.input__field::placeholder {
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 2.5rem;
+  opacity: 0.6000000238418579;
+  width: 100%;
+  color: #fff;
+}
+.input__field::placeholder {
+  color: var(--placeholder-color);
+}
+.error__message {
+  font-size: 1rem;
+  font-style: italic;
+  font-weight: 700;
+  color: #f67e7e;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.input__field:focus {
+  border-bottom: 0.1rem solid #79c8c7;
+}
+
+.message__input {
+  resize: none;
+}
+
+.submit {
+  align-self: flex-start;
+  outline: none;
+  background-color: #fff;
+  border-radius: 2.4rem;
+  border: 2px solid #fff;
+  padding: 0.8rem 3rem;
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 2.8rem;
+  display: block;
+  color: #004047;
+}
+
+.contact__bg-2 {
+  top: 20%;
+  left: -6.5%;
+}
+.contact__bg-1 {
+  bottom: 0;
+  right: -6.5%;
+}

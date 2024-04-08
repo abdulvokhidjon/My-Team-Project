@@ -1,0 +1,114 @@
+.center__page {
+  max-width: 144rem;
+  margin: 0 auto;
+}
+
+.grid__2x2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  /* gap: 3rem; */
+}
+
+.heading__box {
+  /* width: 63.5rem; */
+  display: flex;
+  flex-direction: column;
+  gap: 5.4rem;
+}
+
+.primary__heading {
+  font-size: 10rem;
+  font-weight: 700;
+  line-height: 10rem;
+}
+
+.secondary__heading {
+  font-size: 4.8rem;
+  font-weight: 700;
+  line-height: 4.8rem;
+}
+
+.home__bg__1,
+.home__bg__2,
+.build__bg__1,
+.deliver__bg__2,
+.deliver__bg__1,
+.ready__bg__1,
+.about__bg,
+.reveal__text,
+.close__text,
+.directors__bg__2,
+.directors__bg__1,
+.clients__bg,
+.contact__bg-2,
+.contact__bg-1 {
+  position: absolute;
+}
+
+.nav__link:link,
+.nav__link:visited,
+.contact,
+.reveal__text,
+.close__text,
+.director__social__box,
+.submit {
+  cursor: pointer;
+}
+
+.nav__link:link,
+.nav__link:visited,
+.header__link:link,
+.header__link:visited {
+  display: block;
+  text-decoration: none;
+  font-size: 1.8rem;
+  line-height: 2.8rem;
+  color: #fff;
+  font-weight: 600;
+}
+
+.nav__link:hover,
+.nav__link:active {
+  color: #f67e7e;
+}
+
+.contact {
+  margin-left: auto;
+}
+
+.contact:hover {
+  background-color: #fff;
+  border-radius: 2.4rem;
+}
+
+.contact:hover .header__link {
+  color: #002529;
+}
+
+.header__link {
+  border-radius: 2.4rem;
+  border: 2px solid #fff;
+  padding: 0 1.1rem;
+  padding: 1rem 3rem;
+}
+
+
+
+.footer__social__img:hover {
+  fill: #f67e7e;
+
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
+
+.section--hidden {
+  opacity: 0;
+  transform: translateY(6rem);
+}
+
+section {
+  transition: transform 1s, opacity 1s;
+}
